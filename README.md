@@ -2,7 +2,7 @@
 
 > This is my resume
 
-[预览](https://jirengu-inc.github.io/animating-resume/public/)
+[预览](https://aladdin99.github.io/animating-resume/public/)
 
 ## 使用方法
 
@@ -28,7 +28,7 @@ npm run dev
 
 3. 开启 GitHub Pages 功能
     ``` bash
-    在当前目录下打开 settings
+    在当前项目下打开 settings
     下拉找到 GitHub Pages
     在 Source 项中选择 master branch
     然后生成一个地址，该地址+'/public' 就是预览该项目页面的网址
