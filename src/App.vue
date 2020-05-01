@@ -18,20 +18,21 @@
     },
     data() {
       return {
-        interval: 40,
+        interval: 10,
         currentStyle: '',
         enableHtml: false,
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
+* Inspired by https://jirengu-inc.github.io/animating-resume/public/
+* 大家好，我是陈煌
+* 前段时间看到一篇技术文章关于会动的简历，所以自己也想实现一下
 * 说做就做，我也来写一份简历！
 */
 
 /* 首先给所有元素加上过渡效果 */
 * {
-  transition: all .3s;
+  transition: all 1s;
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
@@ -61,16 +62,18 @@ html{
   transition: none;
   -webkit-transform: rotateY(10deg) translateZ(-100px) ;
           transform: rotateY(10deg) translateZ(-100px) ;
+  box-shadow: 1px 1px 10px #fff;
 }
 
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
-  padding: .5em;  margin: .5em;
+  padding: .5em;  margin: .5em 2em .5em;
   width: 48vw; height: 90vh;
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
+  box-shadow: 1px 1px 10px #fff;
 }
 /* 好了，我开始写简历了 */
 
@@ -115,32 +118,33 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `陈煌
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+20届前端小码农，热爱生活热爱代码，对新事物充满好奇，渴望成为一名点点厉害的全栈开发工程师。
+
 
 技能
 ----
 
 * 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+* PHP
+* MySQL
+* APICloud
+* Apache、Nginx
+
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 智业软件股份有限公司
+2. 微瀚信息科技有限公司
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/aladdin99)
+* [我的文章](https://aladdin99.github.io/)
 
 > 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
 
