@@ -1,5 +1,5 @@
 # 一个会动的简历模板
-本项目源于：https://github.com/jirengu-inc/animating-resume。
+本项目源于：https://github.com/jirengu-inc/animating-resume/public。
 > This is my resume
 
 [预览](https://aladdin99.github.io/animating-resume/public/)
