@@ -27,4 +27,10 @@ npm run dev
     ```
 
 3. 开启 GitHub Pages 功能
+    ``` bash
+    在当前目录下打开 settings
+    下拉找到 GitHub Pages
+    在 Source 项中选择 master branch
+    然后生成一个地址，该地址+'/public' 就是预览该项目页面的网址
+    ```
 
